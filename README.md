@@ -6,4 +6,4 @@ As a React developer, I've always been curious about new challenges. The Angular
 - Different backgrounds based on the temperature in the searched city.
 
 ## Screenshot
-![Main](https://i.ibb.co/SvG8KJy/weather.png)
+![image](https://github.com/GiaxUp/weather-app/assets/40038797/fb75ff25-cae3-48f9-989e-a77ee5a518bd)
