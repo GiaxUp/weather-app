@@ -25,9 +25,23 @@ body {
   align-items: center;
 }
 
+header {
+  text-align: center;
+  padding: 0.5em;
+  background-color: var(--blue-1);
+  color: var(--whithe);
+  font-size: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
 .container {
   width: 400px;
   height: 90vh;
+  background: linear-gradient(45deg, var(--blue-1), var(--blue-2));
   background-color: var(--blue-2);
   border-radius: 15px;
   box-shadow: 10px 10px 10px var(--shadow-dark);
@@ -106,6 +120,10 @@ body {
   width: 50%;
   display: flex;
   flex-direction: row;
+  background-color: var(--blue-2);
+  margin: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .info-block-label {
@@ -114,10 +132,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--blue-1);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .info-block-label img {
   width: 2.5em;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
 }
 
 .info-block-label span {
